@@ -1,0 +1,22 @@
+<h3>Ruby on rails hw4</h3>
+
+<h2>Cat</h2>
+<% @cats.each do |c| %>
+ <%= c.name %>
+<% end %>
+
+
+<h2>todo</h2>
+<% @todos.each do |t| %>
+ <%= t.tasks %>
+ <%=t.finished.to_s %>
+<% end %>
+
+<h2>User</h2>
+<% @users.each do |u| %>
+ <%= u.username %>
+ <%= u.email %>
+<% end %>
+
+
+
